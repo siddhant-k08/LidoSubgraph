@@ -13,7 +13,7 @@ function App() {
   })
 
   const query =`{
-    lidoTransfers(first: 10, orderBy: blockTime, orderDirection: desc) {
+    lidoTransfers(first: 15, orderBy: blockTime, orderDirection: desc) {
       id
       from
       to
